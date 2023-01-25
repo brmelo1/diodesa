@@ -1,6 +1,9 @@
 num=5
-num2=11
+num2=1
 
 soma=num+num2
 
-print(soma)
+if soma < 10:
+    print ('a soma e menor que 10 a ',soma)
+else:
+    print ('a soma e igual a ',soma)
